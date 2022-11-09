@@ -7,12 +7,10 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BaseTest{
-    BaseTest(){
+    BaseTest()
         open("https://www.sportmaster.ru/about/");
-    }
-    public void close(){
+    public void close()
         closeWebDriver();
-    }
 }
 public class TestPronounsCount {
     private final String[] FIRST_FACE_PRONOUNS = {"я","меня","мне","меня","мной","мною","мы","нас","нам","нами"};
