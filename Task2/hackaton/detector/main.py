@@ -28,8 +28,8 @@ def look_for_style(href, folder):
 
 
 def search():
-    site_href = "D:/Prog_pet_projects/HackatonBeCoder/hackaton/"
-
+    print("Enter a path to the .html file:\n(For example: D:/Prog_pet_projects/HackatonBeCoder/hackaton/):")
+    site_href = input()
     options = Options()
     options.add_argument('--headless')
     driver = webdriver.Chrome(options=options, executable_path="chromedriver.exe")
