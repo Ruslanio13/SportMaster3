@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: local('Oswald'),
+        url("/fonts/Oswald-Light.ttf") format('truetype');
+}
+h1{
+    font-family: "Oswald", sans-serif;
+    color: #bcb5c1;
+    font-size: 100px;
+    margin-left: 50px;
+    text-shadow: -5px 1px 1px rgba(105,  54,  225, 0.56);
+}
+h2{
+    font-family: "Oswald", sans-serif;
+    color: #bcb5c1;
+    font-size: 90px;
+    margin-right: 120px;
+    text-shadow: 5px 1px 1px rgba(105,  54,  225, 0.56);
+}
+h3{
+    font-family: "Oswald", sans-serif;
+    color: #bcb5c1;
+    margin-right: 80px;
+    font-size: 80px;
+    text-shadow: -5px 1px 1px rgba(105,  54,  225, 0.56);
+}

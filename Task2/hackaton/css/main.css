@@ -1,0 +1,14 @@
+div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+body {
+    background-color: #100616;
+    /*background-color: #5549b5;
+    background-color: #371153;*/
+}
+h2{
+    color: chartreuse;
+}
