@@ -38,7 +38,7 @@ public class TestPronounsCount {
         int pronounsCount = 0;
         for (String word : pageWords)
             pronounsCount += checkIsWordPronoun(word.toLowerCase());
-        assertFalse(pronounsCount > 0);
+        assertTrue(pronounsCount > 0);
         baseTest.close();
     }
 }
